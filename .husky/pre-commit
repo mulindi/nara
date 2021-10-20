@@ -1,0 +1,4 @@
+#!/bin/sh
+. "$(dirname "$1")"
+
+npx --no-install lint-staged
