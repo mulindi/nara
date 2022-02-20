@@ -4,7 +4,7 @@ const plugin = require('tailwindcss/plugin')
 module.exports = {
   mode: 'jit',
   purge: {
-    content: ['./pages/**/*.js', './components/**/*.js', './layouts/**/*.js', './lib/**/*.js'],
+    content: ['./pages/**/*.tsx', './components/**/*.tsx', './layouts/**/*.tsx', './lib/**/*.tsx'],
   },
   darkMode: 'class',
   theme: {
